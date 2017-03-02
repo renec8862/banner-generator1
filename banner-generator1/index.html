@@ -1,25 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Jquery Template</title>
-      <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-      <script>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Jquery Template</title>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script>
     //code
-      $(function(){
-        $('h1').click(function() {
+    $(function() {
+      $('h1').click(function() {
                 $(this).css('color', 'blue');
-                
-            });
-         
-          }); 
-    </script>
-  </head>
-  <body>
-  <h1> Creating Banner Generator</h>
-  <h2></h2>
-  First Name:<input type="text" =""/><br>
-  Last Name:<input type="text" Last name=""/><br>
+      });
+      $('button').click(function() {
+        
+
+        var first =$('#first').val()
+        
+        
+        
+
+      });
+
+
+    });
+  </script>
+</head>
+
+<body>
+  <h1> Creating Madlib Generator</h1>
+
+  <h2>Type a random First name:<input type="text" id="first" /><br></h2>
+  Type a random Last Name:<input type="text"  /><br>
   <button>Press the button</button>
-  </body>
+</body>
+
 </html>
