@@ -13,10 +13,11 @@
       });
       $('button').click(function() {
         var first =$('#first').val()
-        var last = $('#last').val()
         
-        $("h2").html("Your new First name is ," + first  );
-        $("h2").html("Your new Last name is ,"+last );
+        
+        $("h2").html( + first  );
+        
+        
          
       
         
@@ -41,11 +42,15 @@
   <h1> Creating Banner Generator</h1>
 
   Type a random First name:<input type="text" id="first" /><br>
+  <h2></h2>
     
   Type a random Last Name:<input type="text" id="last"   /><br>
-  <h2></h2>
+  
+  
      
   <button>Press the button</button>
+
+  
   
 </body>
 
